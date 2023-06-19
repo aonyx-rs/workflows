@@ -7,6 +7,10 @@ name: Docker
       - main
   pull_request:
 
+permissions:
+  contents: read
+  packages: write
+
 jobs:
   build:
     name: Build and push
