@@ -6,5 +6,9 @@
 
   "pre-commit": {
     "enabled": true
+  },
+
+  "github-actions": {
+    "fileMatch": ["^[\\w]+\\/[\\w]+\\.yml$"]
   }
 }
