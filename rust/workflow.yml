@@ -34,6 +34,6 @@ jobs:
 
       - name: Print changed files
         run: |
-          for file in ${{ steps.changed-files-specific.outputs.all_changed_files }}; do
+          for file in ${{ steps.detect-changes.outputs.all_changed_files }}; do
             echo "$file"
           done
