@@ -34,7 +34,7 @@ jobs:
           done
 
   style:
-    name: Check style
+    name: Check JSON style
     runs-on: ubuntu-latest
 
     needs: detect-changes

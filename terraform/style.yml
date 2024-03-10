@@ -1,5 +1,5 @@
 style:
-  name: Check style
+  name: Check Terraform style
   runs-on: ubuntu-latest
 
   needs: detect-changes
