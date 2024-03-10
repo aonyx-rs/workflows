@@ -1,0 +1,18 @@
+# This file is managed by FlowCrafter. Manual changes will be overwritten
+# the next time you run FlowCrafter.
+---
+library:
+  local:
+    path: .
+workflows:
+  - name: json
+    jobs:
+      - style
+  - name: markdown
+    jobs:
+      - lint
+      - style
+  - name: yaml
+    jobs:
+      - lint
+      - style
